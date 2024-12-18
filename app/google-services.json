@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "465057427912",
+    "project_id": "safeload21-77331",
+    "storage_bucket": "safeload21-77331.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465057427912:android:dbec2acc190f3bdd3910fd",
+        "android_client_info": {
+          "package_name": "com.example.safeload"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2igmBUA8bGbEH2zMx5JNhnNO4LHRimts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

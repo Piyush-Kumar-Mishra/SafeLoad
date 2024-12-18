@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_bcg"
+    tools:context=".ShowProfile">
+
+    <ImageView
+        android:layout_width="174dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="-30dp"
+        android:src="@drawable/info_img6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/userInfoCard"
+        android:layout_width="368dp"
+        android:layout_height="146dp"
+        android:layout_margin="15dp"
+        android:paddingTop="15dp"
+        app:cardBackgroundColor="@color/cardBackgroundColor"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/roboto"
+                android:text="Name: "
+                android:textColor="@color/primaryTextColor"
+                android:textSize="22sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/ageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/roboto"
+                android:text="Age: "
+                android:textColor="@color/primaryTextColor"
+                android:textSize="22sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/dobTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/roboto"
+                android:text="Date of Birth: "
+                android:textColor="@color/primaryTextColor"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/contactInfoCard"
+        android:layout_width="350dp"
+        android:layout_height="108dp"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/cardBackgroundColor"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/contactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/roboto"
+                android:text="Contact: "
+                android:textColor="@color/primaryTextColor"
+                android:textSize="23sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/emergencyContactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/roboto"
+                android:text="Emergency Contact: "
+                android:textColor="@color/primaryTextColor"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/submitButton2"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#29313E"
+        android:shadowColor="#29313E"
+        android:text="Submit"
+        android:textSize="20dp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
